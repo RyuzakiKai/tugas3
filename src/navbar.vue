@@ -1,9 +1,6 @@
 <template>
   <ul>
     <li><router-link class ="active" to="/">Home</router-link></li>
-    <li><router-link to="/contact">Contact</router-link></li>
-    <li><router-link :to="{ name: 'About'}">About</router-link></li>
-
   </ul>
 </template>
 
